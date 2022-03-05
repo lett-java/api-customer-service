@@ -121,6 +121,11 @@ public class Customer {
 		this.documentType = documentType;
 	}
 	
+	private void sysout() {
+		// TODO Qualquer coisa
+
+	}
+	
 	
 	
 }
