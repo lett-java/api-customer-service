@@ -48,5 +48,79 @@ public class Customer {
 	
 	@Enumerated(EnumType.STRING)
 	private DocumentTypeEnum documentType;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getUuid() {
+		return uuid;
+	}
+
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public LocalDateTime getCreatedDate() {
+		return createdDate;
+	}
+
+	public void setCreatedDate(LocalDateTime createdDate) {
+		this.createdDate = createdDate;
+	}
+
+	public LocalDateTime getUpdatedDate() {
+		return updatedDate;
+	}
+
+	public void setUpdatedDate(LocalDateTime updatedDate) {
+		this.updatedDate = updatedDate;
+	}
+
+	public Boolean getEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
+	}
+
+	public LocalDateTime getDisabledDate() {
+		return disabledDate;
+	}
+
+	public void setDisabledDate(LocalDateTime disabledDate) {
+		this.disabledDate = disabledDate;
+	}
+
+	public String getDocument() {
+		return document;
+	}
+
+	public void setDocument(String document) {
+		this.document = document;
+	}
+
+	public DocumentTypeEnum getDocumentType() {
+		return documentType;
+	}
+
+	public void setDocumentType(DocumentTypeEnum documentType) {
+		this.documentType = documentType;
+	}
+	
+	
 	
 }
