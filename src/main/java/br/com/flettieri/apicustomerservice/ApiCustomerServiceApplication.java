@@ -10,6 +10,7 @@ public class ApiCustomerServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApiCustomerServiceApplication.class, args);
+		System.out.println("Projeto Api Customer Service.");
 	}
 
 }
